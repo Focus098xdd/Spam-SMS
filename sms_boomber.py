@@ -16,8 +16,8 @@ def sms_boomber(phonenumber, sms_number):
         else:
             try:
             # Send sms via post http method
-                data = {
-                    "cellphone": "+98" + phonenumber
+                data = { 
+                    "cellphone": "+66" + phonenumber
                 }
 
                 for i in range(int(sms_number)):
